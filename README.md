@@ -1,10 +1,10 @@
 # Wholesale Application
-This application is a REST API to support Wholesale management. It allows to create/update/delete Products along with create/update Availabilities.
+This application is a REST API to support Wholesale management. It allows to create/update/delete Products along with Availabilities.
 For each Product there's also an option to display all Availabilities using proper API endpoint.
 
-The entire API is documented using Swagger. In order to open the documentation download the app, run and open `http://localhost:8080/swagger-ui.html` for SwaggerUI.
+As far as documenctaion is concerned, the entire API is documented using Swagger. In order to open the documentation please download the project, run the application and open `http://localhost:8080/swagger-ui.html` for SwaggerUI.
 
-# How to run?
+# How to run the application?
 1. Clone the application
 2. Go to the project directory
 3. Run `mvn clean install` and once sucessful, `mvn spring-boot:run`
