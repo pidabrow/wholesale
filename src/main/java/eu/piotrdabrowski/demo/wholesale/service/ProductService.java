@@ -43,7 +43,7 @@ public class ProductService {
 
     @Transactional
     public ProductDto createProduct(ProductCreateDto productCreateDto) {
-        Product created = productDao.save(productMapper.toEntity(productCreateDto));
+        final Product created = productDao.save(productMapper.toEntity(productCreateDto));
 
         return productMapper.toDto(created);
     }
