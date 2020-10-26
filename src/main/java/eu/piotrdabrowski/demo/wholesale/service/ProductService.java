@@ -36,6 +36,7 @@ public class ProductService {
                 .orElseThrow(() -> new ResourceNotFoundException(Product.class, id));
     }
 
+    @Transactional
     public void deleteById(Long id) {
         productDao.deleteById(id);
     }
